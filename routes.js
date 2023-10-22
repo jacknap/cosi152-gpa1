@@ -20,14 +20,6 @@ router.get("/facilities", (req, res) => {
 	res.render("facilities");
 });
 
-router.get("/programs", (req, res) => {
-	res.render("programs");
-});
-
-router.get("/events", (req, res) => {
-	res.render("events");
-});
-
 router.get("/membership", (req, res) => {
 	res.render("membership");
 });
