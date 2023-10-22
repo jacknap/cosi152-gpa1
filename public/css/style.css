@@ -1,0 +1,57 @@
+/* Defines the color and spacing of the header */
+header {
+  background-color: white;
+  color: #002E6C;
+  padding: 10px;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.nav-pills a {
+  color: #002E6C;
+}
+
+/* Changes the color of the navigation bar items when hovered over */
+.nav-pills a:hover {
+  background-color: #002E6C;
+  color: white;
+}
+
+section {
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section article {
+  padding: 1em;
+  width: 80%;
+}
+
+/* Defines the color and spacing of the footer */
+footer {
+  background-color: #002E6C;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Defines the padding of items in the footer */
+footer div {
+  padding: 1em;
+}
+
+/* Style icons */
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+/* Add a hover to icons */
+.fa:hover {
+  opacity: 0.5;
+}
