@@ -1,0 +1,92 @@
+<!-- Author: Jack Napoleone -->
+<!-- View for the membership page -->
+
+<h1 class="text-center">Membership</h1>
+<div class="row">
+	<div class="col-md-6">
+		<h2 class="text-center">Current Community Members</h2>
+		<p>
+			All current Brandeis students, faculty, and staff, may use the athletic
+			facilities free of charge. A valid Brandeis ID card must be presented to
+			enter and upon request.
+			<br />
+		</p>
+	</div>
+
+	<div class="col-md-6">
+		<h2 class="text-center">Guest Policy</h2>
+		<p>
+			Current Brandeis students, faculty, staff, and members may bring guests
+			into the facility, provided guests are accompanied at all times, sign a
+			waive, and pay a fee of $10.
+		</p>
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-6">
+		<h2 class="text-center">Non-Community Members</h2>
+		<h3>Types of Membership</h3>
+		<ul>
+			<li>Alumni</li>
+			<li>Immediate Family of current student, faculty or staff</li>
+			<li>Waltham Senior Citizen</li>
+		</ul>
+		<br />
+		<h3>Pricing</h3>
+		<ul>
+			<li>$500/full year</li>
+			<li>$300/semester</li>
+			<li>$250/summer</li>
+			<li>$100/intersession break</li>
+		</ul>
+	</div>
+	<div class="col-md-6">
+		<h2 class="text-center">Membership Application</h2>
+		<form
+			action="/membership"
+			method="post"
+		>
+			<label
+				for="name"
+				class="form-label"
+				>Your Name</label
+			><br />
+			<input
+				type="text"
+				name="name"
+				class="form-control"
+			/><br />
+			<label
+				for="email"
+				class="form-label"
+				>Your Email</label
+			><br />
+			<input
+				type="email"
+				name="email"
+				class="form-control"
+			/><br />
+			<label
+				for="period"
+				class="form-label"
+				>Length of Membership</label
+			><br />
+			<select
+				name="period"
+				class="form-select"
+				aria-label="Select Membership Period"
+			>
+				<option value="1">Full Year - $500</option>
+				<option value="2">Semester - $300</option>
+				<option value="3">Summer - $250</option>
+				<option value="3">Intersession Break - $100</option>
+			</select>
+			<br />
+			<input
+				type="submit"
+				value="Submit"
+				class="btn btn-primary"
+			/>
+		</form>
+	</div>
+</div>

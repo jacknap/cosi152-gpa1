@@ -1,6 +1,22 @@
+<!-- Author: Jack Napoleone -->
+<!-- Layout page, views will be rendered between the header and footer in a container-fluid div -->
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="description"
+			content="Website for Brandeis University Athletics"
+		/>
+		<meta
+			name="keywords"
+			content="Brandeis, Brandeis University, Athletics, Sports, Gosman"
+		/>
+		<meta
+			name="author"
+			content="Jack Napoleone"
+		/>
 		<meta
 			name="viewport"
 			content="width=device-width, initial-scale=1"
@@ -21,6 +37,7 @@
 		/>
 	</head>
 	<body>
+		<!-- Referenced bootstrap docs to learn this -->
 		<nav class="navbar border-bottom sticky-top bg-white">
 			<div class="container-fluid">
 				<a
@@ -58,7 +75,7 @@
 							>Facilities</a
 						>
 					</li>
-					<li class="nav-item">
+					<!--<li class="nav-item">
 						<a
 							href="/programs"
 							class="nav-link"
@@ -71,7 +88,7 @@
 							class="nav-link"
 							>Events</a
 						>
-					</li>
+					</li>-->
 					<li class="nav-item">
 						<a
 							href="/membership"
@@ -89,7 +106,10 @@
 				</ul>
 			</div>
 		</nav>
+
+		<!-- Views rendered here -->
 		<div class="container-fluid min-vh-100"><%- body%></div>
+
 		<footer
 			class="col-12 position-relative bottom-0 d-flex justify-content-between"
 		>

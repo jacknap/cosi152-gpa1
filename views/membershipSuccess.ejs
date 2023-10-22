@@ -1,0 +1,60 @@
+<!-- Author: Jack Napoleone -->
+<!-- View for the membership success page -->
+
+<h1 class="text-center">Membership</h1>
+<div class="row align-items-center">
+	<div class="col-md-6">
+		<h2 class="text-center">Membership Application</h2>
+		<form
+			action="/membership"
+			method="post"
+		>
+			<label
+				for="name"
+				class="form-label"
+				>Your Name</label
+			><br />
+			<input
+				type="text"
+				name="name"
+				class="form-control"
+			/><br />
+			<label
+				for="email"
+				class="form-label"
+				>Your Email</label
+			><br />
+			<input
+				type="email"
+				name="email"
+				class="form-control"
+			/><br />
+			<label
+				for="period"
+				class="form-label"
+				>Length of Membership</label
+			><br />
+			<select
+				name="period"
+				class="form-select"
+				aria-label="Select Membership Period"
+			>
+				<option value="1">Full Year - $500</option>
+				<option value="2">Semester - $300</option>
+				<option value="3">Summer - $250</option>
+				<option value="3">Intersession Break - $100</option>
+			</select>
+			<br />
+			<input
+				type="submit"
+				value="Submit"
+				class="btn btn-primary"
+			/>
+		</form>
+	</div>
+	<div class="col-md-6">
+		<h2 class="text-center">
+			Your application has not been recorded, feel free to submit another one!
+		</h2>
+	</div>
+</div>
